@@ -1,0 +1,165 @@
+section.backgroundImage{
+    background: url('../Images/background.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;     
+    /* position: relative;
+    top: 0; */
+}
+
+.textOnImage{
+    color: white;
+    font-size: 2vw;
+    padding-top: 29%;
+    padding-bottom: 9%;
+    padding-left: 30%;
+}
+
+p{
+    padding-left: 11%;
+} 
+
+
+/* SECTION MENGAPA LIBURIN */
+
+.first-style {
+    text-align: center;
+    /* background-color: blueviolet; */
+    margin-top: 30px;    
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.kolomInfo {
+    width: 20%;
+    height: auto;
+    margin: 20px;
+    box-sizing: border-box;
+    color: #495b5f;
+    /* background-color: burlywood; */
+}
+
+div > h3 {
+    margin-top: 10px;
+}
+
+.iconSearch {
+    width: 12vw;
+    height: 20vh;
+}
+
+/* SECTION DESTINASI TERBAIK */
+
+.kolomDestinasi {
+    width: 20%;
+    height: auto;
+    margin: 20px;
+    box-sizing: border-box;
+    color: whitesmoke;
+    position: relative;
+    /* background-color: burlywood; */
+}
+
+.cityImages {
+    /* width: 300px; */
+    width: 19.8vw;
+    height: 42vh;
+    border-radius: 15px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(9, 9, 9, 0.3);
+    width: 19.8vw;
+    height: 80px;
+    border-radius: 15px;
+    transition: .9s ease;
+    margin-bottom: 5px;
+}
+
+.kolomDestinasi:hover .overlay {
+    height: 318px;
+    background-color:rgba(9, 9, 9, 0.8);
+}
+
+
+
+@media only screen and (min-width:375px) and (max-width: 376px) {
+    .kolomInfo {
+        width: 85%;
+    }
+    .iconSearch {
+        width: 35vw;
+    }
+    .kolomDestinasi {
+        width: 85%;
+        /* background-color: yellow; */
+    }
+    .cityImages {
+        width: 70vw;
+    }
+    /* .overlay {
+        display: none;
+    } */
+    .mobileOverlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:rgba(9, 9, 9, 0.3);
+        width: 70vw;
+        height: 150px;
+        border-radius: 15px;
+        transition: .9s ease;
+        margin-bottom: 5px;
+    }
+}
+    
+
+@media only screen and (min-width:377px) and (max-width: 600px) {
+        .kolomInfo {    
+            width: 50%;
+            background-color: fuchsia;
+        }
+    }
+    
+    
+    /* @media only screen and (min-width:601px) and (max-width: 1000px) {
+        .kolom {
+            width: 30%;
+            background-color: gold;
+        }
+    } */
+
+    @media (min-width:600px) {
+        .kolomInfo h1{
+           font-size: 16px;
+        }
+        .kolomInfo h3 {
+            font-size: 10px;
+        }
+    }
+
+    @media (min-width:1001px) {
+        .kolomInfo h1{
+           font-size: 24px;
+        }
+        .kolomInfo h3 {
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+    
+
+
