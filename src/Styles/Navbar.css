@@ -77,8 +77,14 @@ a.active {
             height: 65px;
             position: fixed;
             z-index: 1;
-            
+            /* margin-bottom: 100px; */
     }
+
+    /* section.backgroundImage{
+        position: relative;
+        top: 30%
+        } */
+
     nav ul li a {
         font-size: 16px;
     }
@@ -95,6 +101,7 @@ a.active {
         left: -100%;
         transition: all .5s;
         text-align: center;
+        z-index: 1;
         
     }
     nav ul li {

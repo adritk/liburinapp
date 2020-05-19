@@ -3,8 +3,10 @@ section.backgroundImage{
     background-size: cover;
     height: 100%;
     background-position: center;     
-    /* position: relative;
-    top: 0; */
+}
+
+.kosong {
+    display: none;
 }
 
 .textOnImage{
@@ -85,11 +87,27 @@ div > h3 {
     border-radius: 15px;
     transition: .9s ease;
     margin-bottom: 5px;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px 0 0 30px;
+    color: whitesmoke;
 }
 
 .kolomDestinasi:hover .overlay {
     height: 318px;
     background-color:rgba(9, 9, 9, 0.8);
+}
+
+.textOverlay {
+    white-space: nowrap; 
+    color:black;
+    font-size: 18px;
+    position: relative;
+    top: 300;
+    overflow: hidden;
+    margin-top: 85px;
+    text-align: left;
+    font-weight: 500;
 }
 
 
@@ -116,13 +134,25 @@ div > h3 {
         bottom: 0;
         left: 0;
         right: 0;
-        background-color:rgba(9, 9, 9, 0.3);
+        background-color:rgba(9, 9, 9, 0.8);
         width: 70vw;
-        height: 150px;
+        height: 180px;
         border-radius: 15px;
         transition: .9s ease;
+        margin-left: 27.5px;
         margin-bottom: 5px;
     }
+
+    .kolomDestinasi:hover .overlay {
+        height: 280px;
+        background-color:rgba(9, 9, 9, 0.8);
+    }
+
+    
+    .kosong {
+        display: block;
+    }
+    
 }
     
 
