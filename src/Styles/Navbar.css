@@ -10,12 +10,11 @@
     width: 100%;
 }
 
-label.logo {
-    color: white;
-    padding: 0 80px;
-    line-height: 80px;
-    font-size: 35px;
-    font-weight: bold;
+.logoLiburin {
+    height: 8.7vh;
+    width: 13.1vw; 
+    margin-top: 5px; 
+    margin-left: 50px
 }
 
 nav ul {
@@ -37,17 +36,18 @@ nav ul li a {
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
-    text-decoration: none;
+    text-decoration: none !important;
     list-style: none;
 }
 
-a.active, a:hover{
-    background: #1b9bff;
-    transition: .5s;
+li a:hover{
+ color: white !important;
+ background:  #1b9bff;
 }
 
 a.active {
     margin-left: 30px;
+    background:  #1b9bff;
 }
 
 #check {
@@ -67,12 +67,12 @@ a.active {
 /* IPHONE 6 RESPONSIVE */
 
 @media only screen and (min-width:375px) and (max-width: 376px) {
-        label.logo {
+        /* label.logo {
         font-size: 30px;
         color: yellow;
         padding-left: 20px;
         line-height: 65px;
-    }
+    } */
         #myNavbar {
             height: 65px;
             position: fixed;
@@ -80,10 +80,12 @@ a.active {
             /* margin-bottom: 100px; */
     }
 
-    /* section.backgroundImage{
-        position: relative;
-        top: 30%
-        } */
+    .logoLiburin {
+        height: 60px;
+        width: 100px; 
+        margin-top: 5px; 
+        margin-left: 30px
+    }
 
     nav ul li a {
         font-size: 16px;

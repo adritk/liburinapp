@@ -1,0 +1,100 @@
+{
+    "tourdomestik": [
+        {
+            "id": 1,
+            "name": "Paket Tour Aceh",
+            "duration": "4D3N",
+            "price": 1500000,
+            "location": "Banda Aceh, Indonesia",
+            "image": "aceh.jfif"
+        },
+        {
+            "id": 2,
+            "name": "Paket Tour Padang",
+            "price": 1200000,
+            "duration": "4D3N",
+            "location": "Padang, Indonesia",
+            "image": "padang.jfif"
+        },
+        {
+            "id": 3,
+            "name": "Paket Tour Toraja",
+            "price": 350000,
+            "duration": "3D2N",
+            "location": "Makassar, Indonesia",
+            "image": "Toraja.jfif"
+        },
+        {
+            "id": 4,
+            "name": "Paket Tour Jakarta",
+            "price": 900000,
+            "duration": "4D3N",
+            "location": "Jakarta, Indonesia",
+            "image": "monas.jfif"
+        },
+        {
+            "id": 5,
+            "name": "Culinary Yogyakarta Tour",
+            "price": 1300000,
+            "duration": "4D3N",
+            "location": "Yogyakarta, Indonesia",
+            "image": "backgroundjogja.jfif"
+        },
+        {
+            "id": 6,
+            "name": "Paket Tour Surabaya",
+            "price": 800000,
+            "duration": "3D2N",
+            "location": "Surabaya, Indonesia",
+            "image": "surabaya.jfif"
+        },
+        {
+            "id": 7,
+            "name": "Summer Paradise Bali Tour",
+            "price": 2000000,
+            "duration": "4D3N",
+            "location": "Bali, Indonesia",
+            "image": "backgroundbali.jfif"
+        },
+        {
+            "id": 8,
+            "name": "Bromo-Malang Tour",
+            "price": 1800000,
+            "duration": "4D3N",
+            "location": "Malang, Indonesia",
+            "image": "backgroundbromo.jfif"
+        },
+        {
+            "id": 9,
+            "name": "Amazing Bali Tour",
+            "price": 2000000,
+            "duration": "4D3N",
+            "location": "Bali, Indonesia",
+            "image": "bedugul.jfif"
+        },
+        {
+            "id": 10,
+            "name": "Paket Tour Palembang",
+            "price": 300000,
+            "duration": "2D1N",
+            "location": "Palembang, Indonesia",
+            "image": "palembang.jfif"
+        },
+        {
+            "id": 11,
+            "name": "Paket Tour Bandung",
+            "price": 750000,
+            "duration": "4D3N",
+            "location": "Bandung, Indonesia",
+            "image": "bandung.jfif"
+        },
+        {
+            "id": 12,
+            "name": "Paket Tour Bunaken",
+            "price": 350000,
+            "duration": "2D1N",
+            "location": "Manado, Indonesia",
+            "image": "bunaken.jfif"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+.tourContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.kolomTour {
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 275px;
+    position: relative;
+    font-size: 30px;
+}
+
+
+.kolomTour:hover .overlay {
+    height: 42vh;
+    background-color:rgba(9, 9, 9, 0.8);
+}
